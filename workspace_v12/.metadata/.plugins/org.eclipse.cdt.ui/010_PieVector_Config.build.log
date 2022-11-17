@@ -1,0 +1,24 @@
+
+**** Build of configuration Debug for project 010_PieVector_Config ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../deneme.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/libraries/math/IQmath/c28/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="deneme.d_raw"  "../deneme.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'deneme.obj' failed
+"../deneme.c", line 23: error: identifier "Source" is undefined
+      Source = Source + 3;
+      ^
+ 
+"../deneme.c", line 36: error: incomplete type is not allowed
+  const struct PIE_VECTOR_TABLOSU PieVectorTabloInit ={
+                                  ^
+ 
+2 errors detected in the compilation of "../deneme.c".
+gmake: *** [deneme.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

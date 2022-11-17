@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FilterExpression">
+	</section>
+	<section name="Find in Single Time -3">
+		<item key="x" value="160"/>
+		<item key="y" value="160"/>
+		<item key="w" value="532"/>
+		<item key="h" value="297"/>
+		<item key="tagIndex" value="0"/>
+		<item key="fieldName1" value=""/>
+		<item key="operatorName1" value=""/>
+		<item key="fieldValue1" value=""/>
+		<item key="useBitsMask1" value="false"/>
+		<item key="bitsMask1" value=""/>
+		<item key="caseSensitive1" value="false"/>
+		<item key="backward1" value="false"/>
+		<item key="wrap1" value="false"/>
+	</section>
+</section>

@@ -1,0 +1,645 @@
+[
+  {
+    "text": "AM263X",
+    "type": "folder",
+    "numChildren": 1,
+    "numChildrenLocal": 1,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewDescription": "AM263x family of SOC's",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM273X",
+    "type": "folder",
+    "numChildren": 1,
+    "numChildrenLocal": 1,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewDescription": "AM273x family of SOC's",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM243X",
+    "type": "folder",
+    "numChildren": 4,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM57XX",
+    "type": "folder",
+    "numChildren": 9,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/AM57xx_deviceDocumentation_1_00_00_05/.metadata/.tirex/img/am57xx.png",
+    "overviewDescription": "Device documentations for Jacinto's AM57xx Family Processors ...",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM62X",
+    "type": "folder",
+    "numChildren": 2,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/am62x-devices/docs/images/am62x_device_logo.png",
+    "overviewDescription": "AM62x processor features rich multimedia peripherals and embedded edge AI processing in a low-power design for HMI, IoT and gateway applications.",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM64X",
+    "type": "folder",
+    "numChildren": 5,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/am64x-devices/docs/images/am64x_device_logo.png",
+    "overviewDescription": "AM64x is a highly integrated real-time networked processing platform enabling next generation compact, precise and connected edge devices. It is built to meet the evolving Industry 4.0 needs in a broad set of industrial applications such as factory automation, building automation and smart grid.  With the integration of up to four Arm&reg;-Cortex&reg;-R5F microcontroller cores, real-time networking accelerators and two Arm Cortex-A53 micro-processing cores, AM64x processors enable high precision control, flexible connectivity with low power envelope resulting in a compact size. Easy to use, low-cost development platforms are available to help developers partition their application in the optimum manner.",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM65XX",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/AM65xx_deviceDocumentation_1_00_00_03/.metadata/.tirex/img/am65xx.png",
+    "overviewDescription": "Device documentation for Jacinto's AM65xx Family Processors ...",
+    "packageOrder": 395
+  },
+  {
+    "text": "F28002X",
+    "type": "folder",
+    "numChildren": 48,
+    "numChildrenLocal": 24,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F28003X",
+    "type": "folder",
+    "numChildren": 60,
+    "numChildrenLocal": 30,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F28004X",
+    "type": "folder",
+    "numChildren": 54,
+    "numChildrenLocal": 27,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2802X0",
+    "type": "folder",
+    "numChildren": 20,
+    "numChildrenLocal": 8,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2802X",
+    "type": "folder",
+    "numChildren": 40,
+    "numChildrenLocal": 16,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2803X",
+    "type": "folder",
+    "numChildren": 24,
+    "numChildrenLocal": 6,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2805X",
+    "type": "folder",
+    "numChildren": 40,
+    "numChildrenLocal": 10,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2806X",
+    "type": "folder",
+    "numChildren": 78,
+    "numChildrenLocal": 39,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2807X",
+    "type": "folder",
+    "numChildren": 6,
+    "numChildrenLocal": 3,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2823X",
+    "type": "folder",
+    "numChildren": 9,
+    "numChildrenLocal": 3,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2833X",
+    "type": "folder",
+    "numChildren": 12,
+    "numChildrenLocal": 4,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2837XD",
+    "type": "folder",
+    "numChildren": 35,
+    "numChildrenLocal": 20,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2837XS",
+    "type": "folder",
+    "numChildren": 30,
+    "numChildrenLocal": 15,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2838XD",
+    "type": "folder",
+    "numChildren": 21,
+    "numChildrenLocal": 12,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "F2838XS",
+    "type": "folder",
+    "numChildren": 21,
+    "numChildrenLocal": 12,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC13X0",
+    "type": "folder",
+    "numChildren": 16,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC13X1",
+    "type": "folder",
+    "numChildren": 8,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC13X2",
+    "type": "folder",
+    "numChildren": 12,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC13X2X7",
+    "type": "folder",
+    "numChildren": 8,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC26X0",
+    "type": "folder",
+    "numChildren": 20,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC26X1",
+    "type": "folder",
+    "numChildren": 9,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC26X2",
+    "type": "folder",
+    "numChildren": 20,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC26X2X7",
+    "type": "folder",
+    "numChildren": 8,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC31XX",
+    "type": "folder",
+    "numChildren": 6,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC32XX",
+    "type": "folder",
+    "numChildren": 16,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "packageOrder": 395
+  },
+  {
+    "text": "IWR1XXX",
+    "type": "folder",
+    "numChildren": 6,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/mmwave_devices/images/chipshots/IWR.png",
+    "overviewDescription": "The IWR1xxx family is a set of highly-integrated, single-chip mmWave sensors supporting 76-81GHz frequency range with high accuracy sensing of range, velocity and angle.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430F1XX",
+    "type": "folder",
+    "numChildren": 78,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430f1xx_square.png",
+    "overviewDescription": "MSP430x1xx Series 16 bit Microcontroller – Flash or ROM based Ultra-Low Power 16 bit microcontroller offering 8 MIPS, 1.8 - 3.6V operation, up to 60 KB Flash, and a wide range of high-performance analog and intelligent digital peripherals.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP432E4",
+    "type": "folder",
+    "numChildren": 6,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewDescription": "<p>The SimpleLink(TM) MSP432™ Ethernet microcontrollers (MCUs) are high-performance ARM® Cortex®-M MCUs with integrated Ethernet MAC and PHY and a wide variety of wired communication interfaces including universal serial bus (USB), controller area network (CAN), Quad-SPI (QSSI), I2C, SPI,  UART and other serial protocols. Featuring a 120MHz ARM Cortex-M4F CPU,  1MB of Flash and 256kB of SRAM, and advanced cryptography accelerators, MSP432E4 MCUs offer ample amount of processing resources for developers to implement wired and wireless connectivity stacks and processing algorithms to build IoT-ready, intelligent industrial gateway applications.</p><p>More information on MSP432E4 MCUs at <a href=\"http://www.ti.com/msp432e4\">http://www.ti.com/msp432e4</a>.</p>",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM335X",
+    "type": "folder",
+    "numChildren": 7,
+    "numChildrenLocal": 7,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/Sitara_devices_5_01_00_11/.metadata/.tirex/assets/photos/am335x/sitara-am335x-chip.jpg",
+    "overviewDescription": "The AM335x microprocessors, based on the ARM Cortex-A8 processor, are enhanced with image, graphics processing, peripherals and industrial interface options such as EtherCAT and PROFIBUS ...",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430F2XX",
+    "type": "folder",
+    "numChildren": 132,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430f2xx_square.png",
+    "overviewDescription": "MSP430F2xx Series 16 bit Microcontroller – Flash-based Ultra-Low Power 16 bit microcontroller featuring up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "packageOrder": 395
+  },
+  {
+    "text": "AM437X",
+    "type": "folder",
+    "numChildren": 1,
+    "numChildrenLocal": 1,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewDescription": "The TI AM437x high-performance processors are based on the ARM Cortex-A9 core ...",
+    "packageOrder": 395
+  },
+  {
+    "text": "IWR6XXX",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/mmwave_devices/images/chipshots/IWR.png",
+    "overviewDescription": "The IWR6xxx family is a set of highly-integrated, single-chip mmWave sensors supporting 60-64GHz frequency range with high accuracy sensing of range, velocity and angle.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430F4XX",
+    "type": "folder",
+    "numChildren": 237,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430f4xx_square.png",
+    "overviewDescription": "MSP430x4xx 16 bit Microcontroller Series – LCD Flash or ROM based 16 bit microcontroller devices offer 8-16 MIPS, integrated LCD controller, 1.8V-3.6V operation, with FLL, and SVS. Ideal for low power metering and medical applications.",
+    "packageOrder": 395
+  },
+  {
+    "text": "AMIC",
+    "type": "folder",
+    "numChildren": 1,
+    "numChildrenLocal": 1,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewDescription": "AMIC processors are built for slave level communications in Smart Factory industrial Ethernet networks...",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430G2XX",
+    "type": "folder",
+    "numChildren": 147,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430g2xx_square.png",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430F5XX_6XX",
+    "type": "folder",
+    "numChildren": 612,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430f5xx_6xx_square.png",
+    "overviewDescription": "MSP430F5xx/6xx 16 bit Microcontroller Series – The Flash-based 16 bit Microcontroller family featuring ultra-low active power consumption with up to 25 MIPS, 1.8V-3.6V operation. Includes an innovative Power Management Module for optimal power consumption. These devices feature integrated USB and LCD modules.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430I2XX",
+    "type": "folder",
+    "numChildren": 18,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430i2xx_square.png",
+    "overviewDescription": "The MSP430i2xx family consists of a powerful 16-bit RISC CPU, DCO based clock system that generates system clocks, Power Management Module with built-in voltage reference and voltage monitor, two 24-bit Sigma Delta A/D converters, Temperature Sensor, one 16-bit Hardware Multiplier, one 16-bit Timer, one eUSCI-A and one eUSCI-B modules, Watchdog timer along with more features.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430FR57XX",
+    "type": "folder",
+    "numChildren": 60,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "packageOrder": 395
+  },
+  {
+    "text": "AWR1XXX",
+    "type": "folder",
+    "numChildren": 9,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/mmwave_devices/images/chipshots/AWR.png",
+    "overviewDescription": "The AWR1xxx family is a set of highly-integrated, single-chip automotive radar sensors supporting 76-81GHz frequency range with high accuracy sensing of range, velocity and angle.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430FR5XX_6XX",
+    "type": "folder",
+    "numChildren": 258,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430fr5xx_6xx_square.png",
+    "overviewDescription": "MSP430FR5xx/6xx 16-bit Microcontrollers Series feature embedded FRAM and are based on the lowest power MCU technology platform. While also featuring FRAM for faster, lower power writes in a unified non-volatile memory, these devices are the lowest power MCUs ever with 100uA/MHz active power, 500nA standby with RTC, and 75uA ADC.  Devices operate up to 16 MHz and are ideal for wireless, medical, metering, and sensing applications.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430FR2XX_4XX",
+    "type": "folder",
+    "numChildren": 87,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430fr2xx_4xx_square.png",
+    "overviewDescription": "The MSP430FR2xx/4xx platform features devices with a small memory footprint with an ultra-low-power LCD controller and abundant capacitive touch enabled IO pins. The 256-segment LCD controller has an integrated charge pump for maintained contrast in low-power modes and features software configurable pins for simplified hardware layout of LCDs. IR modulation logic is also available on these MCUs.",
+    "packageOrder": 395
+  },
+  {
+    "text": "CC430FXX",
+    "type": "folder",
+    "numChildren": 42,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/cc430fxx_square.png",
+    "overviewDescription": "CC430 bit RF Microcontroller Series featuring embedded RF - The CC430 16 bit RF microcontroller family provides tight integration between the microcontroller core, peripherals, software, and RF transceiver, creating true system-on-chip solutions that are easy to use. Features < 1GHz RF transceiver, with 1.8V-3.6V operation.",
+    "packageOrder": 395
+  },
+  {
+    "text": "MSP430L092_C09X",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device Documentation&package=",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_14_01/.metadata/.tirex/images/msp430l092_c09x_square.png",
+    "overviewDescription": "The MSP430C09x and MSP430L092 series are microcontroller configurations with two 16-bit timers, an ultra-low-voltage 8-bit analog-to-digital (A/D) converter, an 8-bit digital-to-analog (D/A) converter, and up to 11 I/O pins.</b>Typical applications for this device include single-cell systems requiring a full analog signal chain.",
+    "packageOrder": 395
+  }
+]

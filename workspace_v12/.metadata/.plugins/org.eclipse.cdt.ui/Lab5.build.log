@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../sysctrl_deneme.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/ibrahim/Desktop/Workshops/F28069/Solutions/F2806x_headers/include" --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="sysctrl_deneme.d_raw"  "../sysctrl_deneme.c"
+Finished building: "../sysctrl_deneme.c"
+ 
+Building target: "Lab5.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --advice:performance=all -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"Lab5.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Lab5_linkInfo.xml" --rom_model -o "Lab5.out" "./CodeStartBranch.obj" "./DefaultIsr_5.obj" "./DelayUs.obj" "./F2806x_GlobalVariableDefs.obj" "./Gpio.obj" "./Main_5.obj" "./PieCtrl.obj" "./PieVect.obj" "./SysCtrl.obj" "./Watchdog.obj" "./sysctrl_deneme.obj" "../F2806x_Headers_nonBIOS.cmd" "../Lab_5_6_7.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab5.out"
+ 
+
+**** Build Finished ****

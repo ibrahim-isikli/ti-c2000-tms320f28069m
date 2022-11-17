@@ -1,0 +1,13 @@
+"./CodeStartBranch.obj"
+"./DefaultIsr_5.obj"
+"./DelayUs.obj"
+"./F2806x_GlobalVariableDefs.obj"
+"./Gpio.obj"
+"./Main_5.obj"
+"./PieCtrl.obj"
+"./PieVect.obj"
+"./SysCtrl.obj"
+"./Watchdog.obj"
+"../F2806x_Headers_nonBIOS.cmd"
+"../Lab_5_6_7.cmd"
+-lrts2800_fpu32.lib

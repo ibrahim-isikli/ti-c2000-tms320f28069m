@@ -1,0 +1,39 @@
+
+**** Build of configuration Debug for project rt ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../deneme.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/rt" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="deneme.d_raw"  "../deneme.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'deneme.obj' failed
+"../deneme.c", line 1: fatal error #1965: cannot open source file "F2806x_device.h"
+1 catastrophic error detected in the compilation of "../deneme.c".
+Compilation terminated.
+gmake: *** [deneme.obj] Error 1
+Building file: "../togDeneme.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/rt" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="togDeneme.d_raw"  "../togDeneme.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'togDeneme.obj' failed
+"../togDeneme.c", line 63: fatal error #1965: cannot open source file "DSP28x_Project.h"
+1 catastrophic error detected in the compilation of "../togDeneme.c".
+Compilation terminated.
+gmake: *** [togDeneme.obj] Error 1
+Building file: "../denemeSysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/rt" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="denemeSysCtrl.d_raw"  "../denemeSysCtrl.c"
+"../denemeSysCtrl.c", line 15: warning #9-D: nested comment is not allowed
+Finished building: "../denemeSysCtrl.c"
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/rt" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

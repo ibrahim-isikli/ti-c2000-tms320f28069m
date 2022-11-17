@@ -1,0 +1,44 @@
+
+**** Build of configuration Debug for project GpioToggle ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../Example_2806xGpioToggle.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/ibrahim/headers/include" --include_path="C:/Users/ibrahim/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="Example_2806xGpioToggle.d_raw"  "../Example_2806xGpioToggle.c"
+Finished building: "../Example_2806xGpioToggle.c"
+ 
+Building file: "../deneme.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/ibrahim/headers/include" --include_path="C:/Users/ibrahim/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="deneme.d_raw"  "../deneme.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'deneme.obj' failed
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_CodeStartBranch.asm', needed by 'F2806x_CodeStartBranch.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_DefaultIsr.c', needed by 'F2806x_DefaultIsr.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/headers/source/F2806x_GlobalVariableDefs.c', needed by 'F2806x_GlobalVariableDefs.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_PieCtrl.c', needed by 'F2806x_PieCtrl.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_PieVect.c', needed by 'F2806x_PieVect.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_SysCtrl.c', needed by 'F2806x_SysCtrl.obj'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/source/F2806x_usDelay.asm', needed by 'F2806x_usDelay.obj'.
+"../deneme.c", line 2: fatal error: cannot open source file "F2806x_device.h"
+  #include "F2806x_device.h"
+                            ^
+ 
+1 catastrophic error detected in the compilation of "../deneme.c".
+Compilation terminated.
+gmake: *** [deneme.obj] Error 1
+Building file: "../denemeSysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/ibrahim/headers/include" --include_path="C:/Users/ibrahim/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="denemeSysCtrl.d_raw"  "../denemeSysCtrl.c"
+"../denemeSysCtrl.c", line 15: warning: nested comment is not allowed
+      /*
+      ^
+ 
+Finished building: "../denemeSysCtrl.c"
+ 
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/common/cmd/28069_RAM_lnk.cmd', needed by 'Example_2806xGpioToggle.out'.
+gmake: *** No rule to make target 'C:/Users/ibrahim/ibrahim/headers/cmd/F2806x_Headers_nonBIOS.cmd', needed by 'Example_2806xGpioToggle.out'.
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<deviceFamily value="C2000"/>
+	<isTargetManual value="false"/>
+	<origin value="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/examples/c28/gpio_toggle"/>
+</projectOptions>

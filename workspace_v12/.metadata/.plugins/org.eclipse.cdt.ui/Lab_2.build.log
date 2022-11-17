@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project Lab_2 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "Lab_2.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"Lab_2.map" --stack_size=0x200 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Lab_2_linkInfo.xml" --rom_model -o "Lab_2.out" "./Lab2.obj" "../28069_RAM_lnk.cmd" "../Lab2.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+"../Lab2.cmd", line 6: error #10264: L3DPSARAM memory range overlaps existing memory range RAML0_L3
+"../Lab2.cmd", line 10: error #10264: M0SARAM memory range overlaps existing memory range BOOT_RSVD
+"../Lab2.cmd", line 11: error #10264: M1SARAM memory range overlaps existing memory range RAMM1
+"../Lab2.cmd", line 15: error #10264: L5DPSARAM memory range overlaps existing memory range RAML5
+"../Lab2.cmd", line 16: error #10264: L6DPSARAM memory range overlaps existing memory range RAML6
+"../Lab2.cmd", line 17: error #10264: L7DPSARAM memory range overlaps existing memory range RAML7
+"../Lab2.cmd", line 18: error #10264: L8DPSARAM memory range overlaps existing memory range RAML8
+error #10010: errors encountered during linking; "Lab_2.out" not built
+ 
+>> Compilation failure
+makefile:142: recipe for target 'Lab_2.out' failed
+gmake[1]: *** [Lab_2.out] Error 1
+makefile:138: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

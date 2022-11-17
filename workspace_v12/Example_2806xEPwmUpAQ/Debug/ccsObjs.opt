@@ -1,0 +1,15 @@
+-lrts2800_fpu32_fast_supplement.lib
+-lrts2800_fpu32.lib
+"./Example_2806xEPwmUpAQ.obj"
+"./F2806x_CodeStartBranch.obj"
+"./F2806x_CpuTimers.obj"
+"./F2806x_DefaultIsr.obj"
+"./F2806x_EPwm.obj"
+"./F2806x_GlobalVariableDefs.obj"
+"./F2806x_PieCtrl.obj"
+"./F2806x_PieVect.obj"
+"./F2806x_SysCtrl.obj"
+"./F2806x_usDelay.obj"
+"C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/cmd/28069_RAM_lnk.cmd"
+"C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/cmd/F2806x_Headers_nonBIOS.cmd"
+-lIQmath_fpu32.lib

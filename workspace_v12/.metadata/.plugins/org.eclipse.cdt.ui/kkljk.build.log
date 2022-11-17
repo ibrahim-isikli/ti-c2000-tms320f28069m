@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project kkljk ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "kkljk.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"kkljk.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="kkljk_linkInfo.xml" --rom_model -o "kkljk.out" "./main.obj" "../28069_RAM_lnk.cmd"  -lrts2800_fpu32.lib 
+<Linking>
+ 
+ undefined       first referenced
+  symbol             in file     
+ ---------       ----------------
+ _DSP28x_usDelay ./main.obj      
+ _GpioCtrlRegs   ./main.obj      
+ _GpioDataRegs   ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "kkljk.out" not built
+ 
+>> Compilation failure
+makefile:141: recipe for target 'kkljk.out' failed
+gmake[1]: *** [kkljk.out] Error 1
+makefile:137: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

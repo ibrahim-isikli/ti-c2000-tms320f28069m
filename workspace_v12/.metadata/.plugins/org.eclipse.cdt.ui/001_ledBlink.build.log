@@ -1,0 +1,41 @@
+
+**** Build of configuration Debug for project 001_ledBlink ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/001_ledBlink" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 8: warning #225-D: function "Gpio_sec" declared implicitly
+"../main.c", line 46: warning #161-D: declaration is incompatible with previous "Gpio_sec" (declared at line 8)
+Finished building: "../main.c"
+ 
+Building target: "001_ledBlink.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"001_ledBlink.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="001_ledBlink_linkInfo.xml" --rom_model -o "001_ledBlink.out" "./main.obj"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".reset" without a SECTIONS specification
+warning #10247-D: creating output section ".ebss" without a SECTIONS specification
+ 
+ undefined         first referenced
+  symbol               in file     
+ ---------         ----------------
+ _DSP28x_usDelay   ./main.obj      
+ _GpioCtrlRegs     ./main.obj      
+ _GpioDataRegs     ./main.obj      
+ _InitPieCtrl      ./main.obj      
+ _InitPieVectTable ./main.obj      
+ _InitSysCtrl      ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "001_ledBlink.out" not built
+ 
+>> Compilation failure
+makefile:140: recipe for target '001_ledBlink.out' failed
+gmake[1]: *** [001_ledBlink.out] Error 1
+makefile:136: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

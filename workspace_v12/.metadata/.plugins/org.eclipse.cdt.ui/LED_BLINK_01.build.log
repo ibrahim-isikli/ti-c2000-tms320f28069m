@@ -1,0 +1,61 @@
+
+**** Build of configuration Debug for project LED_BLINK_01 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_CodeStartBranch.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_CpuTimers.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_PieCtrl.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_usDelay.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_EPwm.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_PieVect.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_DefaultIsr.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_SysCtrl.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01" --include_path="C:/Users/ibrahim/Desktop/LED_BLINK_01/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="headers/source/F2806x_GlobalVariableDefs.d_raw" --obj_directory="headers/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+ 
+Building target: "LED_BLINK_01.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"LED_BLINK_01.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="LED_BLINK_01_linkInfo.xml" --rom_model -o "LED_BLINK_01.out" "./common/source/F2806x_Adc.obj" "./common/source/F2806x_CSMPasswords.obj" "./common/source/F2806x_CodeStartBranch.obj" "./common/source/F2806x_Comp.obj" "./common/source/F2806x_CpuTimers.obj" "./common/source/F2806x_DBGIER.obj" "./common/source/F2806x_DefaultIsr.obj" "./common/source/F2806x_DisInt.obj" "./common/source/F2806x_Dma.obj" "./common/source/F2806x_ECan.obj" "./common/source/F2806x_ECap.obj" "./common/source/F2806x_EPwm.obj" "./common/source/F2806x_EQep.obj" "./common/source/F2806x_Gpio.obj" "./common/source/F2806x_HRCap.obj" "./common/source/F2806x_I2C.obj" "./common/source/F2806x_Mcbsp.obj" "./common/source/F2806x_OscComp.obj" "./common/source/F2806x_PieCtrl.obj" "./common/source/F2806x_PieVect.obj" "./common/source/F2806x_Sci.obj" "./common/source/F2806x_Spi.obj" "./common/source/F2806x_SysCtrl.obj" "./common/source/F2806x_TempSensorConv.obj" "./common/source/F2806x_usDelay.obj" "./headers/source/F2806x_GlobalVariableDefs.obj" "./src/gpio_init.obj" "./src/main.obj" "../28069_RAM_lnk.cmd" "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/cmd/F2806x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "csmpasswds" without a SECTIONS specification
+warning #10247-D: creating output section "csm_rsvd" without a SECTIONS specification
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+Finished building target: "LED_BLINK_01.out"
+ 
+
+**** Build Finished ****

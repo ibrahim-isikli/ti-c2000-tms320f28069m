@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project toggle ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../Example_2806xGpioToggle.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/toggle" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Example_2806xGpioToggle.d_raw"  "../Example_2806xGpioToggle.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Example_2806xGpioToggle.obj' failed
+"../Example_2806xGpioToggle.c", line 63: fatal error #1965: cannot open source file "DSP28x_Project.h"
+1 catastrophic error detected in the compilation of "../Example_2806xGpioToggle.c".
+Compilation terminated.
+gmake: *** [Example_2806xGpioToggle.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

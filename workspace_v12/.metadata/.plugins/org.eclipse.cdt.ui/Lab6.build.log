@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../Main_6.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/ibrahim/Desktop/Workshops/F28069/Labs/F2806x_headers/include" -g --diag_warning=225 --display_error_number --diag_wrap=off --preproc_with_compile --preproc_dependency="Main_6.d_raw"  "../Main_6.c"
+Finished building: "../Main_6.c"
+ 
+Building target: "Lab6.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --display_error_number --diag_wrap=off -z -m"Lab6.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --display_error_number --diag_wrap=off --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Adc.obj" "./CodeStartBranch.obj" "./DefaultIsr_6.obj" "./DelayUs.obj" "./EPwm_6.obj" "./F2806x_GlobalVariableDefs.obj" "./Gpio.obj" "./Main_6.obj" "./PieCtrl.obj" "./PieVect.obj" "./SysCtrl.obj" "./Watchdog.obj" "../F2806x_Headers_nonBIOS.cmd" "../Lab_5_6_7.cmd"  -llibc.a 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****

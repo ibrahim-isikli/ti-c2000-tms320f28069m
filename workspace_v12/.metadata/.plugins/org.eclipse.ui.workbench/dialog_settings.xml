@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="com.ti.ccstudio.project.ui.wizards.importexport.ImportCCSProjectWizard_2"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.Preferences"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.cdt.ui.importWizardCategory"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="MemoryDumperFillAction">
+		<item key="com.ti.ccstudio.system.setup.ui.editors.connectionName" value="Texas Instruments XDS100v2 USB Debug Probe"/>
+		<item key="com.ti.ccstudio.system.setup.ui.editors.connectionType" value="TIXDS100v2"/>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\ibrahim\Desktop\Workshops\F28069\Solutions\Lab5"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="PreferencesExportWizard">
+		<item key="" value="C:\Users\ibrahim\Desktop\Workshops\tog03\tog03.epf"/>
+		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="true"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ibrahim\Desktop\Workshops\tog03\tog03.epf"/>
+			<item value="C:\Users\ibrahim\Desktop\Workshops\toggle02\toggle02.epf"/>
+		</list>
+		<list key="WizardPreferencesExportPage1.TRANSFER_PREFERENCES_NAMES_ID">
+			<item value="org.eclipse.cdt.ui.transfer.code_style"/>
+			<item value="org.eclipse.cdt.ui.transfer.editor.behavior"/>
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="C:\Users\ibrahim\Desktop\Workshops\tog03\tog03.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\ibrahim\Desktop\Workshops\tog03\tog03.epf"/>
+			<item value="C:\Users\ibrahim\Desktop\Workshops\toggle02\toggle02.epf"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,30 @@
+
+**** Build of configuration Debug for project 0001_hFileYukleme ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building target: "0001_hFileYukleme.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"0001_hFileYukleme.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="0001_hFileYukleme_linkInfo.xml" --rom_model -o "0001_hFileYukleme.out" "./main.obj"  -lrts2800_fpu32.lib 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10247-D: creating output section ".cinit" without a SECTIONS specification
+warning #10247-D: creating output section ".reset" without a SECTIONS specification
+warning #10247-D: creating output section ".ebss" without a SECTIONS specification
+ 
+ undefined    first referenced
+  symbol          in file     
+ ---------    ----------------
+ _InitPieCtrl ./main.obj      
+ _InitSysCtrl ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "0001_hFileYukleme.out" not built
+ 
+>> Compilation failure
+makefile:140: recipe for target '0001_hFileYukleme.out' failed
+gmake[1]: *** [0001_hFileYukleme.out] Error 1
+makefile:136: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

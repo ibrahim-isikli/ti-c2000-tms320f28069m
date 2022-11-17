@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\external_interrupt"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\adc_soc"/>
+			<item value="C:\Users\ibrahim\Desktop\LED_BLINK_01"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\011_adc_startOfCon"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\011_ldr"/>
+			<item value="C:\Users\ibrahim\Desktop\Workshops\F28069\Labs\011_ldr"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\009_pieCtrlReg_Cnfg"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\010_PieVector_Config"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\driverlib\f2807x\examples\cpu1\pinmux"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\driverlib\f2807x\examples\cpu1\pinmux\CCS"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\training\device\f2837xd\module5_sysconfig_blinkyled"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\009_PieCtrlConfig"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\008_adc_temp"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\007_PeripheralClockContReg"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\006_ClockControlReg"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\005_butonLed"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\004_karasimsekLed2"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\003_karasimsekLed"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\002_ledlerYak"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\001_ledYak"/>
+			<item value="C:\Users\ibrahim\Desktop\Workshops\toggle01"/>
+			<item value="C:\Users\ibrahim\Desktop\Yeni klasör (2)"/>
+			<item value="D:\ti\c2000\C2000Ware_4_02_00_00\device_support\f2806x\examples\c28\gpio_toggle"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\cla_adc"/>
+			<item value="D:\ti\c2000\C2000Ware_4_02_00_00\device_support\f2806x\examples\c28\adc_soc"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\denemetoggle"/>
+			<item value="C:\Users\ibrahim\Desktop\Yeni klasör\Workshops\F28069\Labs\Lab5\Project"/>
+			<item value="C:\Users\ibrahim\Desktop\Workshops\F28069\Labs\Lab5\Project"/>
+			<item value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\gpio_toggle"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\ibrahim\Desktop\Workshops\F28069\Labs\011_ldr"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="C:\Users\ibrahim\Desktop\Workshops\F28069\Labs"/>
+	</section>
+</section>

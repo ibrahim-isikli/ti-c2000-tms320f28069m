@@ -1,0 +1,111 @@
+
+**** Build of configuration Debug for project ADC_Okuma ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k all 
+ 
+Building file: "../Example_2806xAdcSoc.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="Example_2806xAdcSoc.d_raw"  "../Example_2806xAdcSoc.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Example_2806xAdcSoc.obj' failed
+"../Example_2806xAdcSoc.c", line 58: fatal error: cannot open source file
+          "DSP28x_Project.h"
+  #include "DSP28x_Project.h"     // Device Headerfile and Examples Include File
+                                                                                ^
+ 
+1 catastrophic error detected in the compilation of "../Example_2806xAdcSoc.c".
+Compilation terminated.
+gmake: *** [Example_2806xAdcSoc.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Adc.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_Adc.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Adc.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'F2806x_Adc.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Ad
+          c.c", line 46: fatal error: cannot open source file "F2806x_Device.h"
+  #include "F2806x_Device.h"     // F2806x Headerfile Include File
+                                                                  ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Adc.c".
+Compilation terminated.
+gmake: *** [F2806x_Adc.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_DefaultIsr.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+ 
+>> Compilation failure
+subdir_rules.mk:30: recipe for target 'F2806x_DefaultIsr.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_De
+          faultIsr.c", line 56: fatal error: cannot open source file
+          "F2806x_Device.h"
+  #include "F2806x_Device.h"     // F2806x Headerfile Include File
+                                                                  ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c".
+Compilation terminated.
+gmake: *** [F2806x_DefaultIsr.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_GlobalVariableDefs.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+ 
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'F2806x_GlobalVariableDefs.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/headers/source/F2806x_G
+          lobalVariableDefs.c", line 46: fatal error: cannot open source file
+          "F2806x_Device.h"
+  #include "F2806x_Device.h"     // F2806x Headerfile Include File
+                                                                  ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [F2806x_GlobalVariableDefs.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_PieCtrl.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:44: recipe for target 'F2806x_PieCtrl.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Pi
+          eCtrl.c", line 46: fatal error: cannot open source file
+          "F2806x_Device.h"
+  #include "F2806x_Device.h"     // F2806x Headerfile Include File
+                                                                  ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c".
+Compilation terminated.
+gmake: *** [F2806x_PieCtrl.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_PieVect.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'F2806x_PieVect.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Pi
+          eVect.c", line 46: fatal error: cannot open source file
+          "F2806x_Device.h"
+  #include "F2806x_Device.h"     // F2806x Headerfile Include File
+                                                                  ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_PieVect.c".
+Compilation terminated.
+gmake: *** [F2806x_PieVect.obj] Error 1
+Building file: "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --include_path="C:/Users/headers/include" --include_path="C:/Users/common/include" --include_path="C:/libraries/math/IQmath/c28/include" --include_path="C:/libraries/math/FPUfastRTS/c28/include" --define="_DEBUG" --define="LARGE_MODEL" -g --diag_suppress=10063 --diag_warning=225 --issue_remarks --verbose_diagnostics --quiet --preproc_with_compile --preproc_dependency="F2806x_SysCtrl.d_raw"  "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:58: recipe for target 'F2806x_SysCtrl.obj' failed
+"D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_Sy
+          sCtrl.c", line 50: fatal error: cannot open source file
+          "F2806x_Device.h"
+  #include "F2806x_Device.h"     // Headerfile Include File
+                                                           ^
+ 
+1 catastrophic error detected in the compilation of "D:/ti/c2000/C2000Ware_4_02_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c".
+Compilation terminated.
+gmake: *** [F2806x_SysCtrl.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

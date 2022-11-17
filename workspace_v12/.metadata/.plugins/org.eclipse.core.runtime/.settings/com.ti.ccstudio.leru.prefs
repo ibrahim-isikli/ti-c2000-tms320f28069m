@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+state_.org.eclipse.debug.ui.ExpressionView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<View>\r\n<PERSISTABLE IMemento.internal.id\="VarPersitable"/>\r\n<PERSISTABLE IMemento.internal.id\="ExpandReveal">\r\n<Model>\r\n<Element Flags\="1048576" Id\="AdcBuf"/>\r\n<Element Flags\="1048576" Id\="TempSensorVoltage"/>\r\n</Model>\r\n</PERSISTABLE>\r\n</View>
+state_.org.eclipse.debug.ui.RegisterView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<View>\r\n<PERSISTABLE IMemento.internal.id\="VarPersitable"/>\r\n<PERSISTABLE IMemento.internal.id\="ExpandReveal">\r\n<Model>\r\n<Element Flags\="1048576" Id\="GPIO"/>\r\n</Model>\r\n</PERSISTABLE>\r\n</View>

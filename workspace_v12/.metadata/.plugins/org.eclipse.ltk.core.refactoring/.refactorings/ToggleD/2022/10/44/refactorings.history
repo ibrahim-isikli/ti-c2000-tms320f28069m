@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ToggleD/Example_2806xGpioToggle.c&apos; to &apos;GpioToggle.c&apos;" description="Rename resource &apos;Example_2806xGpioToggle.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Example_2806xGpioToggle.c" name="GpioToggle.c" stamp="1666937334106" updateReferences="true"/>
+</session>

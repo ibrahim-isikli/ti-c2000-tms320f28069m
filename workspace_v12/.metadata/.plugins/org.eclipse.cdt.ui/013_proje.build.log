@@ -1,0 +1,141 @@
+
+**** Build of configuration Debug for project 013_proje ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_CodeStartBranch.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CodeStartBranch.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Comp.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Comp.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Comp.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Comp.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_CpuTimers.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_CpuTimers.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECap.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_ECap.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECap.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECap.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Adc.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Adc.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Adc.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Adc.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_DefaultIsr.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_DefaultIsr.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_EPwm.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EPwm.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECan.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_ECan.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECan.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_ECan.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EQep.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_EQep.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EQep.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_EQep.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Gpio.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Gpio.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Gpio.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Gpio.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Dma.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Dma.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Dma.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Dma.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_I2C.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_I2C.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_I2C.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_I2C.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_HRCap.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_HRCap.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_HRCap.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_HRCap.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_OscComp.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_OscComp.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_OscComp.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_OscComp.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Mcbsp.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Mcbsp.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Mcbsp.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Mcbsp.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_PieCtrl.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieCtrl.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_PieVect.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_PieVect.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Sci.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Sci.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Sci.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Sci.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Spi.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_Spi.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Spi.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_Spi.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_TempSensorConv.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_TempSensorConv.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_TempSensorConv.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_TempSensorConv.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_usDelay.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_usDelay.asm"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="common/source/F2806x_SysCtrl.d_raw" --obj_directory="common/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/source/F2806x_SysCtrl.c"
+ 
+Building file: "../src/gpio_init.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="src/gpio_init.d_raw" --obj_directory="src"  "../src/gpio_init.c"
+Finished building: "../src/gpio_init.c"
+ 
+Building file: "../src/main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+Finished building: "../src/main.c"
+ 
+Building file: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/013_proje" --include_path="C:/Users/ibrahim/workspace_v12/013_proje/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="headers/source/F2806x_GlobalVariableDefs.d_raw" --obj_directory="headers/source"  "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+Finished building: "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/source/F2806x_GlobalVariableDefs.c"
+ 
+Building target: "013_proje.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"013_proje.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="013_proje_linkInfo.xml" --rom_model -o "013_proje.out" "./common/source/F2806x_Adc.obj" "./common/source/F2806x_CSMPasswords.obj" "./common/source/F2806x_CodeStartBranch.obj" "./common/source/F2806x_Comp.obj" "./common/source/F2806x_CpuTimers.obj" "./common/source/F2806x_DBGIER.obj" "./common/source/F2806x_DefaultIsr.obj" "./common/source/F2806x_DisInt.obj" "./common/source/F2806x_Dma.obj" "./common/source/F2806x_ECan.obj" "./common/source/F2806x_ECap.obj" "./common/source/F2806x_EPwm.obj" "./common/source/F2806x_EQep.obj" "./common/source/F2806x_Gpio.obj" "./common/source/F2806x_HRCap.obj" "./common/source/F2806x_I2C.obj" "./common/source/F2806x_Mcbsp.obj" "./common/source/F2806x_OscComp.obj" "./common/source/F2806x_PieCtrl.obj" "./common/source/F2806x_PieVect.obj" "./common/source/F2806x_Sci.obj" "./common/source/F2806x_Spi.obj" "./common/source/F2806x_SysCtrl.obj" "./common/source/F2806x_TempSensorConv.obj" "./common/source/F2806x_usDelay.obj" "./headers/source/F2806x_GlobalVariableDefs.obj" "./src/gpio_init.obj" "./src/main.obj" "../28069_RAM_lnk.cmd" "C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/cmd/F2806x_Headers_nonBIOS.cmd"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section "csmpasswds" without a SECTIONS specification
+warning #10247-D: creating output section "csm_rsvd" without a SECTIONS specification
+warning #10247-D: creating output section "ramfuncs" without a SECTIONS specification
+Finished building target: "013_proje.out"
+ 
+
+**** Build Finished ****

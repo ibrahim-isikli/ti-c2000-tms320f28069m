@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ti.ccstudio.project.ui.internal.preferences.DynamicPreferencePageManager">
+	</section>
+	<section name="com.ti.ccstudio.project.ui.internal.properties.DynamicPropertiesPageManager">
+	</section>
+	<section name="com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage">
+		<item key="CCS.BROWSE_DIRS_FILTER" value="C:\ti\c2000\C2000Ware_4_01_00_00\device_support\f2806x\examples\c28\epwm_up_aq"/>
+		<item key="CCS.COPY_INTO_WORKSPACE" value="true"/>
+		<item key="CCS.IMPORT_REFERENCED_PROJECTS" value="true"/>
+		<item key="CCS.IMPORT_FROM_ARCHIVE" value="false"/>
+	</section>
+	<section name="com.ti.ccstudio.project.ui.internal.wizards.project.ProjectSettingsPage">
+		<item key="CCS.TARGET" value="devices/f28069"/>
+		<item key="CCS.CONNECTION" value="C:\ti\ccs1200\ccs\ccs_base\common\targetdb\connections\TIXDS100v2_Connection.xml"/>
+		<section name="1">
+			<item key="CCS.OUTPUT_TYPE" value="executable"/>
+			<item key="CCS.LINKER_COMMAND_FILE" value="F28069.cmd"/>
+			<item key="CCS.RUNTIME_SUPPORT_LIB" value="rts2800_fpu32.lib"/>
+		</section>
+	</section>
+	<section name="CCS.ImportLegacyProjectWizard">
+		<item key="AdvancedOptionsPage.USE_COMMON_ROOT" value="false"/>
+		<item key="AdvancedOptionsPage.COMMON_ROOT_VAR_NAME" value=""/>
+		<item key="AdvancedOptionsPage.COMMON_ROOT_PATH" value=""/>
+		<item key="LegacyProjectSelectionPage.COPY_INTO_WORKSPACE" value="true"/>
+		<item key="LegacyProjectSelectionPage.SELECT_DIRECTORY" value="false"/>
+	</section>
+</section>

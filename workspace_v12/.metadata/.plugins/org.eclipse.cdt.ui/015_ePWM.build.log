@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project 015_ePWM ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../src/main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/015_ePWM" --include_path="C:/Users/ibrahim/workspace_v12/015_ePWM/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/common/include" --include_path="C:/ti/c2000/C2000Ware_4_01_00_00/device_support/f2806x/headers/include" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="src/main.d_raw" --obj_directory="src"  "../src/main.c"
+ 
+>> Compilation failure
+src/subdir_rules.mk:9: recipe for target 'src/main.obj' failed
+"../src/main.c", line 70: error #20: identifier "Gpi" is undefined
+"../src/main.c", line 71: error #66: expected a ";"
+2 errors detected in the compilation of "../src/main.c".
+gmake: *** [src/main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,108 @@
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+Building file: "../DefaultIsr_5.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DefaultIsr_5.d_raw"  "../DefaultIsr_5.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DefaultIsr_5.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../DefaultIsr_5.c".
+Compilation terminated.
+gmake: *** [DefaultIsr_5.obj] Error 1
+Building file: "../CodeStartBranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="CodeStartBranch.d_raw"  "../CodeStartBranch.asm"
+Finished building: "../CodeStartBranch.asm"
+ 
+Building file: "../DenemeSysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DenemeSysCtrl.d_raw"  "../DenemeSysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'DenemeSysCtrl.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../DenemeSysCtrl.c".
+Compilation terminated.
+gmake: *** [DenemeSysCtrl.obj] Error 1
+Building file: "../DelayUs.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="DelayUs.d_raw"  "../DelayUs.asm"
+Finished building: "../DelayUs.asm"
+ 
+Building file: "../F2806x_GlobalVariableDefs.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="F2806x_GlobalVariableDefs.d_raw"  "../F2806x_GlobalVariableDefs.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'F2806x_GlobalVariableDefs.obj' failed
+"../F2806x_GlobalVariableDefs.c", line 12: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../F2806x_GlobalVariableDefs.c".
+Compilation terminated.
+gmake: *** [F2806x_GlobalVariableDefs.obj] Error 1
+Building file: "../Gpio.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Gpio.d_raw"  "../Gpio.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'Gpio.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../Gpio.c".
+Compilation terminated.
+gmake: *** [Gpio.obj] Error 1
+Building file: "../Main_5.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Main_5.d_raw"  "../Main_5.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'Main_5.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../Main_5.c".
+Compilation terminated.
+gmake: *** [Main_5.obj] Error 1
+Building file: "../PieCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="PieCtrl.d_raw"  "../PieCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'PieCtrl.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../PieCtrl.c".
+Compilation terminated.
+gmake: *** [PieCtrl.obj] Error 1
+Building file: "../PieVect.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="PieVect.d_raw"  "../PieVect.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'PieVect.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../PieVect.c".
+Compilation terminated.
+gmake: *** [PieVect.obj] Error 1
+Building file: "../SysCtrl.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="SysCtrl.d_raw"  "../SysCtrl.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'SysCtrl.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../SysCtrl.c".
+Compilation terminated.
+gmake: *** [SysCtrl.obj] Error 1
+Building file: "../Watchdog.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 --float_support=fpu32 --vcu_support=vcu0 --include_path="C:/Users/ibrahim/workspace_v12/Lab3" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="Watchdog.d_raw"  "../Watchdog.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'Watchdog.obj' failed
+"..\Lab.h", line 22: fatal error #1965: cannot open source file "F2806x_Device.h"
+1 catastrophic error detected in the compilation of "../Watchdog.c".
+Compilation terminated.
+gmake: *** [Watchdog.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

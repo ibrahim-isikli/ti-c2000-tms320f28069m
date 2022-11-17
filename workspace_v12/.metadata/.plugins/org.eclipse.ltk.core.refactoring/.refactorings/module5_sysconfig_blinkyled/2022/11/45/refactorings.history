@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;module5_sysconfig_blinkyled/module5_sysconfig_blinkyled.projectspec&apos; to &apos;module5_sysconfig_blinkyled.projectspec.c&apos;" description="Rename resource &apos;module5_sysconfig_blinkyled.projectspec&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="module5_sysconfig_blinkyled.projectspec" name="module5_sysconfig_blinkyled.projectspec.c" stamp="1667491547563" updateReferences="true"/>
+</session>

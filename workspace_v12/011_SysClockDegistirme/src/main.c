@@ -1,0 +1,77 @@
+/** main.c **/
+#include "F2806x_Device.h"
+#include "F2806x_Examples.h"
+
+#include "main.h"
+#include "gpio_init.h"
+
+void delay_loop1(void);
+
+void main(void)
+{
+    // STEP 1: Initialize System Control: PLL, Watchdog, enable Peripheral Clocks
+    InitSysCtrl();
+
+#ifdef FLASH_LINK
+    // Copy the time critical and Flash setup code to RAM
+    MemCopy(&RamfuncsLoadStart, &RamfuncsLoadEnd, &RamfuncsRunStart);
+    InitFlash();
+#endif
+
+   // Set the High-Speed Peripheral Clock Prescaler (HISPCP) such that HSPCLK=25MHz
+   // HSPCLK = SYSCLKOUT/(HISPCP x 2)
+   asm(" EALLOW");
+/*
+ * #if CPU_FRQ_150MHZ
+   SysCtrlRegs.HISPCP.all = 3;
+#else
+   SysCtrlRegs. = 2;
+#endif
+*/
+   asm(" EDIS");
+
+   // STEP 2: Initialize GPIO:
+   gpio_init();
+
+   // STEP 3: Clear all interrupts and initialize PIE vector table: Disable CPU interrupts
+   DINT;
+
+   // Initialize the PIE control registers to their default state
+   // Default state is all PIE interrupts disabled and flags are cleared
+   InitPieCtrl();
+
+   // Disable CPU interrupts and clear all CPU interrupt flags:
+   IER = 0x0000;
+   IFR = 0x0000;
+
+   // Initialize the PIE vector table with pointers to the ISR
+   InitPieVectTable();
+
+   // STEP 4: Initialize all the Device Peripherals
+
+   // STEP 5: User specific code, enable interrupts:
+   // Enable global interrupts and higher priority real-time debug events:
+   EINT;    // Enable Global Interrupt INTM
+   ERTM;    //Enable Global realtime interrupt DBGM
+
+   while(1)
+   {
+       GpioDataRegs.GPBTOGGLE.bit.GPIO34 = 1;
+       delay_loop1();
+       asm(" NOP");
+   }
+}
+
+void delay_loop1(void)
+{
+    long i;
+
+   for (i=0;i<5000000;i++)
+   {
+       // Do nothing
+   }
+}
+
+
+
+

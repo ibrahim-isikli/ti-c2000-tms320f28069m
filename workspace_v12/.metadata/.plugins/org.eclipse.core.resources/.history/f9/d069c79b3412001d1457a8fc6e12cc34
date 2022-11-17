@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../F28M36x_generic_M3_FLASH_PBIST.cmd 
+
+LIB_SRCS += \
+E:/git_apps/device_support/f28m36x/version/MWare/driverlib/ccs/Debug/driverlib.lib 
+
+C_SRCS += \
+E:/git_apps/device_support/f28m36x/version/MWare/driverlib/pbist.c \
+E:/git_apps/device_support/f28m36x/version/F28M36x_examples_Master/pbist_targeted/m3/pbist_targeted.c \
+E:/git_apps/device_support/f28m36x/version/F28M36x_examples_Master/pbist_targeted/m3/startup_ccs.c 
+
+OBJS += \
+./pbist.obj \
+./pbist_targeted.obj \
+./startup_ccs.obj 
+
+C_DEPS += \
+./pbist.pp \
+./pbist_targeted.pp \
+./startup_ccs.pp 
+
+C_DEPS__QUOTED += \
+"pbist.pp" \
+"pbist_targeted.pp" \
+"startup_ccs.pp" 
+
+OBJS__QUOTED += \
+"pbist.obj" \
+"pbist_targeted.obj" \
+"startup_ccs.obj" 
+
+C_SRCS__QUOTED += \
+"E:/git_apps/device_support/f28m36x/version/MWare/driverlib/pbist.c" \
+"E:/git_apps/device_support/f28m36x/version/F28M36x_examples_Master/pbist_targeted/m3/pbist_targeted.c" \
+"E:/git_apps/device_support/f28m36x/version/F28M36x_examples_Master/pbist_targeted/m3/startup_ccs.c" 
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ti.ccstudio.project.ui.internal.preferences.CodegenToolsPreferencePage">
+		<item key="ToolsPreferencePage.BROWSE_FILTER" value="C:\ti\ccs1200\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS"/>
+	</section>
+	<section name="com.ti.common.project.ui.internal.dialogs.ProductSelectionDialog">
+		<item key="PRODUCT_TYPE" value="c2000ware_software_package"/>
+	</section>
+</section>
